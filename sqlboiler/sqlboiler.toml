@@ -1,0 +1,10 @@
+pkgname="db"
+output="app/db"
+add-global-variants=true
+add-panic-variants=true
+[psql]
+  dbname="postgres"
+  host="localhost"
+  port=15432
+  user="postgres"
+  sslmode="disable"
